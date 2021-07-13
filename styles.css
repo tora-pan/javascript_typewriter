@@ -3,9 +3,23 @@
 body {
   font-family: "Raleway", sans-serif;
   height: 100vh;
-  background: #333;
+  background: #333
+    url("https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
   color: #fff;
   overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom right, #747373, #000000);
+  opacity: 0.4;
 }
 
 .container {
@@ -17,8 +31,8 @@ body {
 }
 
 .txt-type {
-  color: #000;
-  text-decoration: underline;
+  color: #fff;
+  /* text-decoration: underline; */
 }
 
 /*---Cursor---*/
@@ -45,30 +59,40 @@ h2 {
   h1 {
     font-size: 5rem;
   }
-
-  
 }
 
 @media (max-width: 800px) {
   .container {
     padding: 0 1rem;
   }
+  body {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   h1 {
     font-size: 3rem;
   }
 
   .txt-type {
-    color: #000;
+    color: #c2c2c2;
     display: block;
   }
 }
 
 @media (max-width: 500px) {
-    body{
-        text-align: center;
-    }
+  body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+  }
+  .txt-type {
+    color: #bbb;
+    display: block;
+  }
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 200;
   }
   h2 {
     font-size: 1rem;
