@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: #aaa;
+  color: rgb(236, 236, 236);
 }
 
 @media (min-width: 1200px) {
@@ -74,7 +74,7 @@ h2 {
   }
 
   .txt-type {
-    color: #c2c2c2;
+    color: #fff;
     display: block;
   }
 }
@@ -87,7 +87,7 @@ h2 {
     color: #fff;
   }
   .txt-type {
-    color: #bbb;
+    color: #fff;
     display: block;
   }
   h1 {
