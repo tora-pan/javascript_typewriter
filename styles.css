@@ -126,7 +126,7 @@ nav {
 @media screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
-    background-size: contain;
+    background-size: cover;
   }
   h1 {
     font-size: 3rem;
@@ -143,7 +143,7 @@ nav {
     height: 80vh;
     width: 50%;
     background-color: #1f2833;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     transform: translateX(100%);
@@ -171,6 +171,11 @@ nav {
     background-position: center;
     color: #fff;
   }
+  
+  .nav-links{
+    display: none;
+  }
+
   .txt-type {
     color: #fff;
     display: block;
@@ -191,9 +196,7 @@ nav {
     background-position: center;
     color: #fff;
   }
-  .nav-links {
-    display: none;
-  }
+  
   .txt-type {
     color: #fff;
     display: block;
