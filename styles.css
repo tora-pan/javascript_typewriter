@@ -136,6 +136,7 @@ nav {
 
   .nav-links {
     position: absolute;
+    overflow-x: hidden;
     right: 0px;
     top: 8vh;
     height: 80vh;
