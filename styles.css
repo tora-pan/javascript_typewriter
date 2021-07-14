@@ -60,6 +60,7 @@ nav {
   min-height: 8vh;
   background-color: #0b0c10;
   opacity: 0.9;
+
 }
 
 .logo {
@@ -67,16 +68,19 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.25rem;
   font-size: 1.4rem;
+
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 40%;
+
 }
 
 .nav-links li {
   list-style: none;
+  
 }
 
 .nav-links a {
@@ -92,9 +96,9 @@ nav {
 }
 
 .burger div {
-  width: 1.8rem;
-  height: 0.08rem;
-  margin: 0.45rem;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
   background-color: #66fcf1;
   transition: all 0.3s ease;
 }
@@ -124,18 +128,17 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
-  .container {
-    padding: 0 1rem;
-  }
   body {
     overflow-x: hidden;
-    background-repeat: no-repeat;
-    background-position: center center;
+    
   }
   h1 {
     font-size: 3rem;
   }
-
+  
+  .container {
+    padding: 0 1rem;
+  }
   .nav-links {
     position: absolute;
     overflow-x: hidden;
