@@ -20,7 +20,7 @@ body {
   height: 100vh;
   background: #0b0c10
     url("https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   overflow: hidden;
 }
@@ -130,7 +130,7 @@ nav {
 @media screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
-    
+    background-size: contain;
   }
   h1 {
     font-size: 3rem;
