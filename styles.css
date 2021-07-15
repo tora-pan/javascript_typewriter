@@ -17,7 +17,7 @@ body {
     url("https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
     no-repeat center center / cover;
   color: #fff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -99,7 +99,15 @@ nav {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
+}
+
+.section-a{
+  background-color: #1F2833;
+}
+
+.section-b{
+  background-color: #0B0C10;
 }
 
 .txt-type {
