@@ -13,6 +13,7 @@
 body {
   font-family: "Raleway", sans-serif;
   height: 100vh;
+  width: 100%;
   background: #0b0c10
     url("https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
     no-repeat center center / cover;
@@ -99,6 +100,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  width: 100%;
   padding: 1rem 3rem;
 }
 
@@ -167,10 +169,11 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
+    overflow-x: hidden;
   }
 
   .nav-links {
-    /* display: none; */
+    display: none;
   }
 
   .txt-type {
