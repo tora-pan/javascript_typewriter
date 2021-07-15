@@ -26,7 +26,7 @@ body::before {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: -75px;
   left: 0;
   z-index: -1;
   background-image: linear-gradient(to bottom right, #1f2833, #0b0c10);
@@ -101,16 +101,23 @@ nav {
   justify-content: center;
   height: 100%;
   width: 100%;
-  padding: 1rem 3rem;
+  padding: 0.4rem 3rem;
 }
 
 .section-a {
   background-color: #1f2833;
+  height: 50%;
+}
+.section-a h1 {
+  padding: 0px;
+  margin: 0px;
 }
 
 .section-b {
   background-color: #0b0c10;
 }
+
+
 
 .txt-type {
   color: #fff;
