@@ -106,7 +106,7 @@ nav {
 
 .section-a {
   background-color: #1f2833;
-  height: 50%;
+  height: 75%;
 }
 .section-a h1 {
   padding: 0px;
@@ -116,8 +116,6 @@ nav {
 .section-b {
   background-color: #0b0c10;
 }
-
-
 
 .txt-type {
   color: #fff;
