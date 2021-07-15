@@ -157,7 +157,7 @@ nav {
   }
 
   .nav-links {
-    display: none;
+    /* display: none; */
   }
 
   .txt-type {
@@ -174,7 +174,10 @@ nav {
     font-size: 1rem;
   }
 }
-
+.nav-active {
+  transform: translateX(0%);
+  display: flex;
+}
 /* @media (max-width: 400px) {
   body {
     text-align: center;
@@ -196,11 +199,6 @@ nav {
     font-size: 1rem;
   }
 } */
-
-.nav-active {
-  transform: translateX(0%);
-  display: flex;
-}
 
 /* Animation */
 @keyframes navLinkFade {

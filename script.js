@@ -31,7 +31,6 @@ TypeWriter.prototype.type = function () {
   let typingSpeed = 150;
   if (this.isDeleting) {
     typingSpeed /= 2;
-    console.log("is deleteing" + typingSpeed);
   }
 
   //check if word is completed
