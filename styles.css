@@ -17,6 +17,19 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#about-me-anchor,
+#projects-anchor,
+#contact-anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   height: 100vh;
