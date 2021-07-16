@@ -22,7 +22,7 @@ body {
   height: 100vh;
   width: 100%;
   background: var(--dark-color);
-    
+
   color: #fff;
   overflow-x: hidden;
 }
@@ -62,7 +62,7 @@ nav {
   min-height: 8vh;
   background-color: var(--less-dark-color);
   opacity: 0.9;
-  position:fixed;
+  position: fixed;
   width: 100%;
   border-bottom: 1px solid var(--dark-color);
 }
@@ -188,29 +188,27 @@ nav {
 }
 
 @media screen and (max-width: 520px) {
-  h1{
+  h1 {
     font-size: 2.5rem;
   }
 }
 
-@media screen and (max-width: 375px){
-  h1{
+@media screen and (max-width: 400px) {
+  h1 {
     font-size: 2rem;
   }
-  h2{
+  h2 {
     font-size: 1.3rem;
   }
-  .txt-type{
+  .txt-type {
     font-size: 1.9rem;
   }
 }
 
 /* SVG STUFF */
 
-svg{
-  padding: 0px;
+svg {
   margin-bottom: -20px;
-  top:0;
   width: 100%;
 }
 
@@ -267,9 +265,8 @@ svg{
   transition: none !important;
 }
 
-
 /* Footer */
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
