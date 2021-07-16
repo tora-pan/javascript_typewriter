@@ -193,11 +193,23 @@ nav {
   }
 }
 
+@media screen and (max-width: 375px){
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  .txt-type{
+    font-size: 1.9rem;
+  }
+}
+
 /* SVG STUFF */
 
 svg{
   padding: 0px;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
   top:0;
   width: 100%;
 }
